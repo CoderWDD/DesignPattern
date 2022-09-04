@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Factory Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/factory_pattern/FactoryPattern.md" afterDir="false" />
+    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Factory Pattern Readme">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/AbstractButtonParameterFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/FactoryProducer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/color_factory/Black.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/color_factory/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/color_factory/ColorFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/color_factory/Gray.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/color_factory/Red.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/shape_factory/Circle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/shape_factory/Rectangle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/shape_factory/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/shape_factory/ShapeFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/abstract_factory_pattern/shape_factory/Square.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/AbstractFactoryPatternTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +37,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/kotlin/factory_pattern/FactoryPattern.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/factory_pattern/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,10 +63,26 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Settings.Markdown"
+    "settings.editor.selected.configurable": "http.proxy"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="abstract_factory_pattern.shape_factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AbstractFactoryPatternTest">
+    <configuration name="AbstractFactoryPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AbstractFactoryPatternTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactoryPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AbstractFactoryPatternTest" />
         <item itemvalue="TestNG.FactoryPatternTest" />
       </list>
     </recent_temporary>
@@ -79,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662277316256</updated>
-      <workItem from="1662277317658" duration="2314000" />
+      <workItem from="1662277317658" duration="7496000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -95,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662279352567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Factory Pattern Readme">
+      <created>1662279791003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662279791003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
     <MESSAGE value="Factory Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern" />
+    <MESSAGE value="Factory Pattern Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Pattern Readme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
