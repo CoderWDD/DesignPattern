@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Abstract Factory Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/builder_pattern/Builder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/builder_pattern/CardDetailBuilder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/builder_pattern/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/BuilderPatternTest.kt" afterDir="false" />
+    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Builder Pattern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662277316256</updated>
-      <workItem from="1662277317658" duration="11384000" />
+      <workItem from="1662277317658" duration="12173000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -142,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662296722978</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Builder Pattern">
+      <created>1662363163164</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662363163164</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +167,8 @@
     <MESSAGE value="Factory Pattern" />
     <MESSAGE value="Factory Pattern Readme" />
     <MESSAGE value="Abstract Factory Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory Pattern" />
+    <MESSAGE value="Builder Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
