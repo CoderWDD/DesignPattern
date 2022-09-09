@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Builder Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/DiscountContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/DiscountStrategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/OverDiscountStrategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/PrimeDiscountStrategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/strategy_pattern/UserDiscountStrategy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/StrategyPatternTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/Interview/DesignPattern",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,7 +66,7 @@
       <recent name="abstract_factory_pattern.shape_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BuilderPatternTest">
+  <component name="RunManager" selected="TestNG.StrategyPatternTest (1)">
     <configuration name="AbstractFactoryPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,8 +100,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StrategyPatternTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StrategyPatternTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StrategyPatternTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.StrategyPatternTest (1)" />
+        <item itemvalue="TestNG.StrategyPatternTest" />
         <item itemvalue="TestNG.BuilderPatternTest" />
         <item itemvalue="TestNG.AbstractFactoryPatternTest" />
         <item itemvalue="TestNG.FactoryPatternTest" />
@@ -109,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662277316256</updated>
       <workItem from="1662277317658" duration="12173000" />
+      <workItem from="1662705378813" duration="2060000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
