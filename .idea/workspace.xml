@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Strategy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/CustomerItemData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/ImageData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/ItemAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/ListItem.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/adapter_pattern/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/AdapterPatternTest.kt" afterDir="false" />
+    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Adapter Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bridge_pattern/AbstractButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bridge_pattern/Button.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bridge_pattern/ButtonInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bridge_pattern/CustomButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bridge_pattern/DefaultButton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/bridge_pattern/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/BridgePatternTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
       <recent name="abstract_factory_pattern.shape_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AdapterPatternTest (2)">
+  <component name="RunManager" selected="TestNG.BridgePatternTest">
     <configuration name="AdapterPatternTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,10 +103,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPatternTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BridgePatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyPatternTest" />
+      <option name="MAIN_CLASS_NAME" value="BridgePatternTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -113,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyPatternTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StrategyPatternTest" />
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BridgePatternTest" />
         <item itemvalue="TestNG.AdapterPatternTest (2)" />
         <item itemvalue="TestNG.AdapterPatternTest (1)" />
         <item itemvalue="TestNG.AdapterPatternTest" />
         <item itemvalue="TestNG.StrategyPatternTest (1)" />
-        <item itemvalue="TestNG.StrategyPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +145,8 @@
       <updated>1662277316256</updated>
       <workItem from="1662277317658" duration="12173000" />
       <workItem from="1662705378813" duration="2158000" />
-      <workItem from="1662799581303" duration="1421000" />
+      <workItem from="1662799581303" duration="2069000" />
+      <workItem from="1662876469285" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662707843862</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adapter Pattern">
+      <created>1662801040357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662801040357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +221,8 @@
     <MESSAGE value="Abstract Factory Pattern" />
     <MESSAGE value="Builder Pattern" />
     <MESSAGE value="Strategy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strategy Pattern" />
+    <MESSAGE value="Adapter Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
