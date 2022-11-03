@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Facade Pattern">
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/Proxy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/Service.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/ServiceInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ProxyPatternTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Proxy Pattern">
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ProxyPatternTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ProxyPatternTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +43,6 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Project/DesignPattern",
     "node.js.detected.package.eslint": "true",
@@ -152,7 +145,7 @@
       <workItem from="1662967833649" duration="445000" />
       <workItem from="1663045309454" duration="1639000" />
       <workItem from="1667480081348" duration="1112000" />
-      <workItem from="1667486249778" duration="126000" />
+      <workItem from="1667486249778" duration="960000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -217,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662968228196</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Proxy Pattern">
+      <created>1667486486753</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667486486753</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +244,8 @@
     <MESSAGE value="Adapter Pattern" />
     <MESSAGE value="Bridge Pattern" />
     <MESSAGE value="Facade Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facade Pattern" />
+    <MESSAGE value="Proxy Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
