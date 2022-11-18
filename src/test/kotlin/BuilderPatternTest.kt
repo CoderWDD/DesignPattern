@@ -1,5 +1,5 @@
 import builder_pattern.CardDetailBuilder
-import org.testng.annotations.Test
+import org.junit.Test
 
 class BuilderPatternTest {
     @Test

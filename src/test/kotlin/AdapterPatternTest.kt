@@ -1,6 +1,6 @@
 import adapter_pattern.CustomerItemData
 import adapter_pattern.ItemAdapter
-import org.testng.annotations.Test
+import org.junit.Test
 
 class AdapterPatternTest {
     @Test

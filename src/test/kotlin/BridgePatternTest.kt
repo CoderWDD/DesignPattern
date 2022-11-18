@@ -1,7 +1,7 @@
 import bridge_pattern.Button
 import bridge_pattern.CustomButton
 import bridge_pattern.DefaultButton
-import org.testng.annotations.Test
+import org.junit.Test
 
 class BridgePatternTest {
     @Test

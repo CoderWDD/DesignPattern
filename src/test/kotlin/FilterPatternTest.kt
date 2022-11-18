@@ -1,5 +1,5 @@
 import fillter_pattern.*
-import org.testng.annotations.Test
+import org.junit.Test
 
 class FilterPatternTest {
     @Test

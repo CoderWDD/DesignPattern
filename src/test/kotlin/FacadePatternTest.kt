@@ -1,5 +1,5 @@
 import facade_pattern.Facade
-import org.testng.annotations.Test
+import org.junit.Test
 
 class FacadePatternTest {
     @Test

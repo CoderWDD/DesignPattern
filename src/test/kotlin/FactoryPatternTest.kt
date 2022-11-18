@@ -1,6 +1,6 @@
 import factory_pattern.JobCategory
 import factory_pattern.WorkerFactory
-import org.testng.annotations.Test
+import org.junit.Test
 
 class FactoryPatternTest {
     @Test

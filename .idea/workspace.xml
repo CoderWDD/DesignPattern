@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Proxy Pattern">
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/ProxyPatternTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/ProxyPatternTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chain_of_responsibility_pattern/AbstractHandler.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chain_of_responsibility_pattern/HandlerOne.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chain_of_responsibility_pattern/HandlerTwo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ChainOfResponsibilityPatternTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +54,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
@@ -64,28 +68,59 @@
       <recent name="abstract_factory_pattern.shape_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FilterPatternTest (1)">
-    <configuration name="AdapterPatternTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ChainOfResponsibilityPatternTest.chainOfResponsibilityTest">
+    <configuration name="BridgePatternTest.bridgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AdapterPatternTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="BridgePatternTest" />
+      <option name="METHOD_NAME" value="bridgeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BridgePatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChainOfResponsibilityPatternTest.chainOfResponsibilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BridgePatternTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="MAIN_CLASS_NAME" value="ChainOfResponsibilityPatternTest" />
+      <option name="METHOD_NAME" value="chainOfResponsibilityTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2" />
     </configuration>
     <configuration name="FacadePatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
@@ -120,13 +155,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TestNG">
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChainOfResponsibilityPatternTest.chainOfResponsibilityTest" />
+        <item itemvalue="JUnit.BridgePatternTest.bridgeTest" />
         <item itemvalue="TestNG.FilterPatternTest (1)" />
         <item itemvalue="TestNG.FilterPatternTest" />
         <item itemvalue="TestNG.FacadePatternTest" />
-        <item itemvalue="TestNG.BridgePatternTest" />
-        <item itemvalue="TestNG.AdapterPatternTest (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +210,9 @@
       <workItem from="1662967833649" duration="445000" />
       <workItem from="1663045309454" duration="1639000" />
       <workItem from="1667480081348" duration="1112000" />
-      <workItem from="1667486249778" duration="960000" />
+      <workItem from="1667486249778" duration="1052000" />
+      <workItem from="1667821158791" duration="41000" />
+      <workItem from="1668763762524" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -217,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667486486753</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Proxy Pattern">
+      <created>1667487389437</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667487389437</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

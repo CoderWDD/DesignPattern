@@ -1,4 +1,4 @@
-import org.testng.annotations.Test
+import org.junit.Test
 import strategy_pattern.DiscountContext
 import strategy_pattern.OverDiscountStrategy
 import strategy_pattern.PrimeDiscountStrategy

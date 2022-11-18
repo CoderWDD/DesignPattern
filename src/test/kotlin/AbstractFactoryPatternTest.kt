@@ -2,7 +2,7 @@ import abstract_factory_pattern.ColorCategory
 import abstract_factory_pattern.FactoryProducer
 import abstract_factory_pattern.ParameterCategory
 import abstract_factory_pattern.ShapeCategory
-import org.testng.annotations.Test
+import org.junit.Test
 
 class AbstractFactoryPatternTest {
     @Test
