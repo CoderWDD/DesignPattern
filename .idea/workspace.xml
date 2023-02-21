@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Proxy Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chain_of_responsibility_pattern/AbstractHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chain_of_responsibility_pattern/HandlerOne.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/chain_of_responsibility_pattern/HandlerTwo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ChainOfResponsibilityPatternTest.kt" afterDir="false" />
+    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Chain of responsibility Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/dynamic_proxy/DynamicProxy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/dynamic_proxy/UserInterface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/dynamic_proxy/UserInterfaceImpl.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/DynamicProxyTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +47,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Project/DesignPattern",
     "node.js.detected.package.eslint": "true",
@@ -57,7 +58,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,7 +70,7 @@
       <recent name="abstract_factory_pattern.shape_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChainOfResponsibilityPatternTest.chainOfResponsibilityTest">
+  <component name="RunManager" selected="JUnit.DynamicProxyTest.testDynamic">
     <configuration name="BridgePatternTest.bridgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,6 +86,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ChainOfResponsibilityPatternTest" />
       <option name="METHOD_NAME" value="chainOfResponsibilityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DynamicProxyTest.testDynamic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DynamicProxyTest" />
+      <option name="METHOD_NAME" value="testDynamic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,17 +133,6 @@
         </ENTRIES>
       </extension>
       <method v="2" />
-    </configuration>
-    <configuration name="FacadePatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FacadePatternTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="FilterPatternTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
@@ -187,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DynamicProxyTest.testDynamic" />
         <item itemvalue="JUnit.ChainOfResponsibilityPatternTest.chainOfResponsibilityTest" />
         <item itemvalue="JUnit.BridgePatternTest.bridgeTest" />
         <item itemvalue="TestNG.FilterPatternTest (1)" />
         <item itemvalue="TestNG.FilterPatternTest" />
-        <item itemvalue="TestNG.FacadePatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +213,9 @@
       <workItem from="1667480081348" duration="1112000" />
       <workItem from="1667486249778" duration="1052000" />
       <workItem from="1667821158791" duration="41000" />
-      <workItem from="1668763762524" duration="1838000" />
+      <workItem from="1668763762524" duration="2101000" />
+      <workItem from="1668782256398" duration="30000" />
+      <workItem from="1676985106811" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -291,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667487389437</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Chain of responsibility Pattern">
+      <created>1668770646893</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668770646893</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +329,8 @@
     <MESSAGE value="Bridge Pattern" />
     <MESSAGE value="Facade Pattern" />
     <MESSAGE value="Proxy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Proxy Pattern" />
+    <MESSAGE value="Chain of responsibility Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chain of responsibility Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
