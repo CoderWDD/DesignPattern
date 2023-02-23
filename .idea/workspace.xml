@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Chain of responsibility Pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/dynamic_proxy/DynamicProxy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/dynamic_proxy/UserInterface.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/proxy_pattern/dynamic_proxy/UserInterfaceImpl.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/DynamicProxyTest.kt" afterDir="false" />
+    <list default="true" id="1c53744d-941e-4d9b-a41f-5c5dc9674cba" name="Changes" comment="Dynamic Proxy Pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flyweight_pattern/Circle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flyweight_pattern/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flyweight_pattern/ShapeFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/FlyweightPatternTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -70,7 +71,7 @@
       <recent name="abstract_factory_pattern.shape_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DynamicProxyTest.testDynamic">
+  <component name="RunManager" selected="JUnit.FlyweightPatternTest.testFlyweight">
     <configuration name="BridgePatternTest.bridgeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPattern" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,6 +97,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DynamicProxyTest" />
       <option name="METHOD_NAME" value="testDynamic" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlyweightPatternTest.testFlyweight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattern" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FlyweightPatternTest" />
+      <option name="METHOD_NAME" value="testFlyweight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,17 +156,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterPatternTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FilterPatternTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
@@ -188,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FlyweightPatternTest.testFlyweight" />
         <item itemvalue="JUnit.DynamicProxyTest.testDynamic" />
         <item itemvalue="JUnit.ChainOfResponsibilityPatternTest.chainOfResponsibilityTest" />
         <item itemvalue="JUnit.BridgePatternTest.bridgeTest" />
         <item itemvalue="TestNG.FilterPatternTest (1)" />
-        <item itemvalue="TestNG.FilterPatternTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +215,8 @@
       <workItem from="1667821158791" duration="41000" />
       <workItem from="1668763762524" duration="2101000" />
       <workItem from="1668782256398" duration="30000" />
-      <workItem from="1676985106811" duration="2392000" />
+      <workItem from="1676985106811" duration="2581000" />
+      <workItem from="1677146460570" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1662278157644</created>
@@ -301,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668770646893</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Dynamic Proxy Pattern">
+      <created>1676987558771</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676987558771</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,7 +338,8 @@
     <MESSAGE value="Facade Pattern" />
     <MESSAGE value="Proxy Pattern" />
     <MESSAGE value="Chain of responsibility Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain of responsibility Pattern" />
+    <MESSAGE value="Dynamic Proxy Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Proxy Pattern" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
